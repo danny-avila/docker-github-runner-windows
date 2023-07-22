@@ -3,9 +3,9 @@
 
 # Setup Variables.
 $randomInt = Get-Random -Maximum 9999
-$resourceGroupName = "Demo-Azure-Container-Registry"
-$region = "uksouth"
-$acrName = "pwd9000registry$randomInt"
+$resourceGroupName = "LibreChat-Registry"
+$region = "useast"
+$acrName = "librechat-registry-$randomInt"
 
 # Create a resource resourceGroupName
 az group create --name "$resourceGroupName" --location "$region"
