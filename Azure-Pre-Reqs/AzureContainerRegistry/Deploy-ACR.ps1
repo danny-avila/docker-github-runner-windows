@@ -4,7 +4,7 @@
 # Setup Variables.
 $randomInt = Get-Random -Maximum 9999
 $resourceGroupName = "LibreChat-Registry"
-$region = "useast"
+$region = "eastus"
 $acrName = "librechat-registry-$randomInt"
 
 # Create a resource resourceGroupName
