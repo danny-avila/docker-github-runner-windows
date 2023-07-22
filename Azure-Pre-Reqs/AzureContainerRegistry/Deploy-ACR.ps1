@@ -5,7 +5,7 @@
 $randomInt = Get-Random -Maximum 9999
 $resourceGroupName = "LibreChat-Registry"
 $region = "eastus"
-$acrName = "librechatRegistry$randomInt"
+$acrName = "librechatregistry$randomInt"
 
 # Create a resource resourceGroupName
 az group create --name "$resourceGroupName" --location "$region"
